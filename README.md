@@ -19,6 +19,6 @@ To be able to use all the Pin Change Interrupts on the ATMega328, put the follow
 
 ///////////////////////////////////////*********************************************************
 
-Put these lines in you sketch BEFORE you #include the NmraDcc.h file.
+Put these lines in your sketch BEFORE you #include the NmraDcc.h file.
 
-Do NOT forget to set PIN to the correct value in the setup() routine.
+Do NOT forget to set PIN to the correct value in your setup() routine.
