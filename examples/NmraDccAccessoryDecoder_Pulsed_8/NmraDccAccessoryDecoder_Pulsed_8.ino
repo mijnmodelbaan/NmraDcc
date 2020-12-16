@@ -1,11 +1,9 @@
 
 ///////////////////////////////////////*********************************************************
-
 // Uncomment to use the PinChangeInterrupts iso External Interrupts
 #define PIN_CHANGE_INT
 
 const byte DCC_PIN =  6; // DCC input pin.
-
 ///////////////////////////////////////*********************************************************
 
 #include <NmraDcc.h>
