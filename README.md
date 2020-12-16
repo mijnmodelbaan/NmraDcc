@@ -14,7 +14,8 @@ To be able to use all the Pin Change Interrupts on the ATMega328, put the follow
 
 ///////////////////////////////////////*********************************************************
 
-// Uncomment to use the PinChangeInterrupts iso External Interrupts
+// Uncomment to use the PinChangeInterrupts iso External Interrupts.
+
 #define PIN_CHANGE_INT
 
 ///////////////////////////////////////*********************************************************
