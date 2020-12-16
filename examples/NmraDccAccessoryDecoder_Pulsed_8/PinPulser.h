@@ -1,3 +1,4 @@
+
 #include <Arduino.h>
 
 #define PIN_PULSER_MAX_PINS    16
@@ -24,4 +25,3 @@ class PinPulser
     uint8_t addPin(uint8_t pin);
     PP_State process(void);
 };
-

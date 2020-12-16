@@ -49,19 +49,19 @@
 //#define NMRA_DCC_ENABLE_14_SPEED_STEP_MODE
 
 #if defined(ARDUINO) && ARDUINO >= 100
-#include "Arduino.h"
+  #include "Arduino.h"
 #else
-#include "WProgram.h"
+  #include "WProgram.h"
 #endif
 
 #ifndef NMRADCC_IS_IN
 #define NMRADCC_IS_IN
 
-#define NMRADCC_VERSION     206     // Version 2.0.6
+#define NMRADCC_VERSION   206    // Version 2.0.6
 
 #define MAX_DCC_MESSAGE_LEN 6    // including XOR-Byte
 
-//#define ALLOW_NESTED_IRQ      // uncomment to enable nested IRQ's ( only for AVR! )
+//#define ALLOW_NESTED_IRQ       // uncomment to enable nested IRQ's ( only for AVR! )
 
 typedef struct
 {
