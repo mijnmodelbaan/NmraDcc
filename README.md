@@ -13,9 +13,12 @@ The library currently supports the AVR ATTiny84/85 & ATMega88/168/328/32u4 and T
 To be able to use all the Pin Change Interrupts on the ATMega328, put the following lines on top of your sketch:
 
 ///////////////////////////////////////*********************************************************
+
 // Uncomment to use the PinChangeInterrupts iso External Interrupts
 #define PIN_CHANGE_INT
+
 ///////////////////////////////////////*********************************************************
 
 Put these lines in you sketch BEFORE you #include the NmraDcc.h file.
+
 Do NOT forget to set PIN to the correct value in the setup() routine.
